@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: e47570c996333ca4189948c04071aaaa
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Hand_Left_GO/Hand_Left_GO
+    100002: Hand_Left_GO/Hand_Left_GO/Chest
+    100004: Hand_Left_GO/Hand_Left_GO/Elbow_Left
+    100006: Hand_Left_GO/Hand_Left_GO/Elbow_Right
+    100008: Hand_Left_GO/Hand_Left_GO/Foot_Left
+    100010: Hand_Left_GO/Hand_Left_GO/Foot_Right
+    100012: Hand_Left_GO/Hand_Left_GO/Hand_Left
+    100014: Hand_Left_GO/Hand_Left_GO/Hand_Right
+    100016: Hand_Left_GO/Hand_Left_GO/Head_Lower
+    100018: Hand_Left_GO/Hand_Left_GO/Head_Upper
+    100020: Hand_Left_GO/Hand_Left_GO/Hips
+    100022: Hand_Left_GO/Hand_Left_GO/Knee_Left
+    100024: Hand_Left_GO/Hand_Left_GO/Knee_Right
+    100026: Hand_Left_GO/Hand_Left_GO/Mouth_Interior
+    100028: Hand_Left_GO/Hand_Left_GO/Shoulder_Left
+    100030: Hand_Left_GO/Hand_Left_GO/Shoulder_Right
+    100032: Hand_Left_GO/Hand_Left_GO/Waist
+    400000: Hand_Left_GO/Hand_Left_GO/Transform
+    400002: Hand_Left_GO/Hand_Left_GO/Chest/Transform
+    400004: Hand_Left_GO/Hand_Left_GO/Elbow_Left/Transform
+    400006: Hand_Left_GO/Hand_Left_GO/Elbow_Right/Transform
+    400008: Hand_Left_GO/Hand_Left_GO/Foot_Left/Transform
+    400010: Hand_Left_GO/Hand_Left_GO/Foot_Right/Transform
+    400012: Hand_Left_GO/Hand_Left_GO/Hand_Left/Transform
+    400014: Hand_Left_GO/Hand_Left_GO/Hand_Right/Transform
+    400016: Hand_Left_GO/Hand_Left_GO/Head_Lower/Transform
+    400018: Hand_Left_GO/Hand_Left_GO/Head_Upper/Transform
+    400020: Hand_Left_GO/Hand_Left_GO/Hips/Transform
+    400022: Hand_Left_GO/Hand_Left_GO/Knee_Left/Transform
+    400024: Hand_Left_GO/Hand_Left_GO/Knee_Right/Transform
+    400026: Hand_Left_GO/Hand_Left_GO/Mouth_Interior/Transform
+    400028: Hand_Left_GO/Hand_Left_GO/Shoulder_Left/Transform
+    400030: Hand_Left_GO/Hand_Left_GO/Shoulder_Right/Transform
+    400032: Hand_Left_GO/Hand_Left_GO/Waist/Transform
+    2800000: RockGolem
+    21200000: Hand_Left_GO/Hand_Left_GO/Chest/SpriteRenderer
+    21200002: Hand_Left_GO/Hand_Left_GO/Elbow_Left/SpriteRenderer
+    21200004: Hand_Left_GO/Hand_Left_GO/Elbow_Right/SpriteRenderer
+    21200006: Hand_Left_GO/Hand_Left_GO/Foot_Left/SpriteRenderer
+    21200008: Hand_Left_GO/Hand_Left_GO/Foot_Right/SpriteRenderer
+    21200010: Hand_Left_GO/Hand_Left_GO/Hand_Left/SpriteRenderer
+    21200012: Hand_Left_GO/Hand_Left_GO/Hand_Right/SpriteRenderer
+    21200014: Hand_Left_GO/Hand_Left_GO/Head_Lower/SpriteRenderer
+    21200016: Hand_Left_GO/Hand_Left_GO/Head_Upper/SpriteRenderer
+    21200018: Hand_Left_GO/Hand_Left_GO/Hips/SpriteRenderer
+    21200020: Hand_Left_GO/Hand_Left_GO/Knee_Left/SpriteRenderer
+    21200022: Hand_Left_GO/Hand_Left_GO/Knee_Right/SpriteRenderer
+    21200024: Hand_Left_GO/Hand_Left_GO/Mouth_Interior/SpriteRenderer
+    21200026: Hand_Left_GO/Hand_Left_GO/Shoulder_Left/SpriteRenderer
+    21200028: Hand_Left_GO/Hand_Left_GO/Shoulder_Right/SpriteRenderer
+    21200030: Hand_Left_GO/Hand_Left_GO/Waist/SpriteRenderer
+    21300000: Shoulder_Right
+    21300002: Elbow_Right
+    21300004: Hand_Right
+    21300006: Head_Upper
+    21300008: Head_Lower
+    21300010: Mouth_Interior
+    21300012: Chest
+    21300014: Foot_Right
+    21300016: Foot_Left
+    21300018: Knee_Right
+    21300020: Knee_Left
+    21300022: Waist
+    21300024: Hips
+    21300026: Shoulder_Left
+    21300028: Elbow_Left
+    21300030: Hand_Left
+    100100000: Hand_Left_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Shoulder_Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 807
+      width: 304
+      height: 214
+    spriteID: 63c2d6e301b458242968ba0804d411b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -547, y: 160}
+  - name: Elbow_Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1194
+      width: 240
+      height: 211
+    spriteID: 1f6c8bcc6528cab4e864be2417fe4364
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -586, y: 677}
+  - name: Hand_Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 395
+      width: 440
+      height: 404
+    spriteID: b3734b53e11895d43a030d7d267d16c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -549, y: 166}
+  - name: Head_Upper
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 592
+      width: 207
+      height: 191
+    spriteID: 1e18cb952785d5942a67d5eea0b0f977
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -455, y: -79}
+  - name: Head_Lower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 1194
+      width: 154
+      height: 165
+    spriteID: cae83c4654ad4b04884cadebeb964912
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -710, y: 608}
+  - name: Mouth_Interior
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 807
+      width: 118
+      height: 131
+    spriteID: f2c4944be26f76b4ea1fc11108f7af8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -659, y: 141}
+  - name: Chest
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 572
+      height: 383
+    spriteID: 4cfefedbc18b5844f9b5738c3c7b6cf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -635, y: -531}
+  - name: Foot_Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1413
+      width: 236
+      height: 202
+    spriteID: 07114cbb247011741b01e422a6803a3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -775, y: 1213}
+  - name: Foot_Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1623
+      width: 236
+      height: 202
+    spriteID: d8612ff94abc2844d8d3f515720e9207
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -984, y: 1417}
+  - name: Knee_Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 1413
+      width: 189
+      height: 162
+    spriteID: 2441da7b6e5616b47a5d53a3c1c2643a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -520, y: 1100}
+  - name: Knee_Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 1623
+      width: 189
+      height: 161
+    spriteID: 42c18d2ae76e4ac408e63abb1ddbe504
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -720, y: 1304}
+  - name: Waist
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1833
+      width: 377
+      height: 119
+    spriteID: e8404fcc7891ead47b9b30799b2e5b33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -754, y: 1334}
+  - name: Hips
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1029
+      width: 357
+      height: 157
+    spriteID: 610008cf2a2190f4dbdb375548b0a302
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -773, y: 625}
+  - name: Shoulder_Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 675
+      y: 395
+      width: 229
+      height: 158
+    spriteID: e3e53a272cbb1a949a17f875d355c587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -381, y: -279}
+  - name: Elbow_Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 395
+      width: 215
+      height: 189
+    spriteID: 971a0b45e210dc24697d10f6519f9676
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -637, y: -138}
+  - name: Hand_Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 4
+      width: 403
+      height: 363
+    spriteID: 435bd7d8909f2084580fb9284e716d39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -468, y: -267}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  textureActualWidth: 1024
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Shoulder_Right
+    spriteName: Shoulder_Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 63c2d6e301b458242968ba0804d411b7
+    layerID: 359449529
+    mosaicPosition: {x: 4, y: 807}
+  - name: Elbow_Right
+    spriteName: Elbow_Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1f6c8bcc6528cab4e864be2417fe4364
+    layerID: 1958609676
+    mosaicPosition: {x: 4, y: 1194}
+  - name: Hand_Right
+    spriteName: Hand_Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b3734b53e11895d43a030d7d267d16c9
+    layerID: -1015798430
+    mosaicPosition: {x: 4, y: 395}
+  - name: Head_Upper
+    spriteName: Head_Upper
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e18cb952785d5942a67d5eea0b0f977
+    layerID: 1987269509
+    mosaicPosition: {x: 452, y: 592}
+  - name: Head_Lower
+    spriteName: Head_Lower
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cae83c4654ad4b04884cadebeb964912
+    layerID: -1991166022
+    mosaicPosition: {x: 252, y: 1194}
+  - name: Mouth_Interior
+    spriteName: Mouth_Interior
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f2c4944be26f76b4ea1fc11108f7af8b
+    layerID: 1612255818
+    mosaicPosition: {x: 316, y: 807}
+  - name: Chest
+    spriteName: Chest
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4cfefedbc18b5844f9b5738c3c7b6cf1
+    layerID: -696914899
+    mosaicPosition: {x: 4, y: 4}
+  - name: Foot_Right
+    spriteName: Foot_Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 07114cbb247011741b01e422a6803a3c
+    layerID: 863388109
+    mosaicPosition: {x: 4, y: 1413}
+  - name: Foot_Left
+    spriteName: Foot_Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d8612ff94abc2844d8d3f515720e9207
+    layerID: -2047521498
+    mosaicPosition: {x: 4, y: 1623}
+  - name: Knee_Right
+    spriteName: Knee_Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2441da7b6e5616b47a5d53a3c1c2643a
+    layerID: 1439403040
+    mosaicPosition: {x: 248, y: 1413}
+  - name: Knee_Left
+    spriteName: Knee_Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42c18d2ae76e4ac408e63abb1ddbe504
+    layerID: -850585415
+    mosaicPosition: {x: 248, y: 1623}
+  - name: Waist
+    spriteName: Waist
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e8404fcc7891ead47b9b30799b2e5b33
+    layerID: -1685038974
+    mosaicPosition: {x: 4, y: 1833}
+  - name: Hips
+    spriteName: Hips
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 610008cf2a2190f4dbdb375548b0a302
+    layerID: -743338792
+    mosaicPosition: {x: 4, y: 1029}
+  - name: Shoulder_Left
+    spriteName: Shoulder_Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e3e53a272cbb1a949a17f875d355c587
+    layerID: 782645234
+    mosaicPosition: {x: 675, y: 395}
+  - name: Elbow_Left
+    spriteName: Elbow_Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 971a0b45e210dc24697d10f6519f9676
+    layerID: 623597223
+    mosaicPosition: {x: 452, y: 395}
+  - name: Hand_Left
+    spriteName: Hand_Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 435bd7d8909f2084580fb9284e716d39
+    layerID: 0
+    mosaicPosition: {x: 584, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
