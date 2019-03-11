@@ -19,5 +19,11 @@ public class PlayerInput : MonoBehaviour {
 
         animator.SetFloat("Forward", y);
         animator.SetFloat("Turn", x);
+
+        if (Input.GetButtonDown("Fire1")) {
+            animator.SetTrigger("Melee");
+        } else if (Input.GetButtonDown("Fire2")) {
+            animator.SetTrigger("Cast");
+        }
     }
 }
