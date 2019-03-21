@@ -18,11 +18,20 @@ public class CharacterDamage : MonoBehaviour {
 
         if (healthSlider.value <= 0.0f) {
             // we died
-            animator.SetBool("Dead", true);
+            //animator.SetBool("Dead", true);
 
             if (agent != null) {
                 // turn off the nav mesh agent, so we don't slide around when dead
+                Debug.Log("Disabled the nav mesh agent");
                 agent.enabled = false;
+            }
+            if (animator != null) {
+                Debug.Log("Disabled the animator");
+                animator.enabled = false;
+            }
+            EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
+            if (enemyMovement != null) {
+                enemyMovement.enabled = false;
             }
         }
     }
