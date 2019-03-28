@@ -11,22 +11,38 @@ public class PlayerInteraction : MonoBehaviour {
 
     void Update() {
         RaycastHit hit;
+
         InteractableObject interactableObject = null;
+        CollectibleItem collectibleItem = null;
 
-        LayerMask interactableMask = LayerMask.GetMask("Interactable");
-        if (Physics.Raycast(camera.position, camera.forward, out hit, range, interactableMask)) {
-            interactableObject = hit.collider.gameObject.GetComponent<InteractableObject>();
+        LayerMask collectibleMask = LayerMask.GetMask("Collectible");
+        if (Physics.Raycast(camera.position, camera.forward, out hit, range, collectibleMask)) {
+            collectibleItem = hit.collider.gameObject.GetComponent<CollectibleItem>();
 
-            if (interactableObject != null) {
-                interactionText.text = interactableObject.GetInteractionText();
+            if (collectibleItem != null) {
+                interactionText.text = collectibleItem.GetInteractionText();
             } else {
                 interactionText.text = "";
             }
         } else {
-            interactionText.text = "";
+            LayerMask interactableMask = LayerMask.GetMask("Interactable");
+            if (Physics.Raycast(camera.position, camera.forward, out hit, range, interactableMask)) {
+                interactableObject = hit.collider.gameObject.GetComponent<InteractableObject>();
+
+                if (interactableObject != null) {
+                    interactionText.text = interactableObject.GetInteractionText();
+                } else {
+                    interactionText.text = "";
+                }
+            } else {
+                interactionText.text = "";
+            }
         }
 
-        if (Input.GetButtonDown("Fire2") && interactableObject != null) {
+        if (Input.GetButtonDown("Fire2") && collectibleItem != null) {
+            Debug.Log("collectible item: " + collectibleItem);
+            collectibleItem.Activate();
+        } else if (Input.GetButtonDown("Fire2") && interactableObject != null) {
             interactableObject.Activate();
         }
     }

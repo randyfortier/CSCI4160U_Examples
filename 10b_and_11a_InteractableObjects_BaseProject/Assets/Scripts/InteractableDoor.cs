@@ -57,6 +57,10 @@ public class InteractableDoor : InteractableObject {
         audioSource.PlayDelayed(doorCloseAudioDelay);
     }
 
+    public void Unlock() {
+        this.isUnlocked = true;
+    }
+
     public override void Activate() {
         if (!isOpen && isUnlocked) {
             OpenDoor();
