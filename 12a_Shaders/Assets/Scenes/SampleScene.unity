@@ -708,7 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodTexture: {fileID: 2800000, guid: 93b6b99d14588cb46bfd4392720fb265, type: 3}
   bloodNormalMap: {fileID: 2800000, guid: f67633ed82d31564cbe5fa74dc8be248, type: 3}
-  bloodAmount: 0.1
+  bloodAmount: 0.97834337
   minBloodAmount: 0.1
   distortion: 1
   autoFade: 1

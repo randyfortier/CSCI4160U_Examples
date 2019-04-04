@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.teststeamvr4.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Winter 2019\\CSCI4160U\\Tryout\\TestSteamVR4\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "TestSteamVR4 [Testing]"
+        }
+      }
+    }
+  ]
+}
