@@ -4,6 +4,7 @@ public class FirstPersonInput : MonoBehaviour {
     [SerializeField] private Transform camera = null;
     [SerializeField] private Animator gunAnimator = null;
     [SerializeField] private GameObject bulletHolePrefab = null;
+    [SerializeField] private AudioSource audioSource = null;
 
     float range = 100f;
 
@@ -20,6 +21,7 @@ public class FirstPersonInput : MonoBehaviour {
         LayerMask groundMask = LayerMask.GetMask("Ground");
 
         gunAnimator.SetTrigger("Fire");
+        audioSource.PlayDelayed(0.1f);
 
         if (Physics.Raycast(camera.position, camera.forward, out hit, range, enemyMask)) {
             Debug.Log("Shot an enemy thing:" + hit.collider.name);
